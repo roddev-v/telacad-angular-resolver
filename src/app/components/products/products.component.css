@@ -1,11 +1,17 @@
 .wrapper {
-    width: 33%;
-    display: inline-block;
-    background-color: crimson;
-    color: white;
-    padding: 4px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 14px;
-    border: 1px solid crimson;
+  width: 33%;
+  display: inline-block;
+  background-color: crimson;
+  color: white;
+  padding: 4px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 14px;
+  border: 1px solid crimson;
+}
+
+.wrapper:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 1px 0px 24px rgba(0, 0, 0, 0.7);
 }
